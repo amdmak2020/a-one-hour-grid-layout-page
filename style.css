@@ -37,7 +37,7 @@ a{
     font-size: 5vw;
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(92.79vh,auto);
-    background-image: url("/lil_bitch.jpg");
+    background-image: url("https://github.com/amdmak2020/a-one-hour-grid-layout-page/blob/main/lil_bitch.jpg?raw=true");
     background-repeat: no-repeat;
     background-size: cover;
 }
