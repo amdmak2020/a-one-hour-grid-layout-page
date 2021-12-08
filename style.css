@@ -1,0 +1,62 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.top {
+    display: grid;
+    position: sticky;
+    background-color: burlywood;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-auto-rows: minmax(5vh, auto);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vw;
+    box-shadow: 5px 10px 15px #000000;
+}
+.top > div{
+    background-color: aquamarine;
+}
+.top > div:nth-child(odd) {
+    background-color: aqua;
+}
+
+a{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.main_shit{
+    display: grid;
+    color: cyan;
+    justify-items: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5vw;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(92.79vh,auto);
+    background-image: url("/lil_bitch.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.con{
+    width: 80%;
+    margin: auto;
+}
+@keyframes conor{
+    0%   {background-color: rgb(72, 255, 0);}
+    25%  {background-color: rgb(0, 255, 255);}
+    50%  {background-color: rgb(0, 153, 255);}
+    75% {background-color: rgb(77, 0, 128);}
+    100%   {background-color: rgb(72, 255, 0);}
+  }
+.concon{
+    width: 100%;
+    background-color: darkcyan;
+    animation-name: conor;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+}
